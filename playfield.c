@@ -1,13 +1,20 @@
-/********************************************************
- ** FILENAME   : playfield.c                           **
- ** AUTHOR     : Jason Bou-Samra                       **
- **            : Karnachan Software                    **
- ** DATE       : 09/01/2023                            **
- ** DESCRIPTION: amiga 1000 playfield example          **
- ** NOTES      : a recreation of the amiga 1000        **
- **              playfield example in C/SDL            **
- ** CHANGES    : see changes.txt                       **
- ********************************************************/
+/****************************************************************************
+ ** playfied.c - a recreation of the amiga 1000 playfield example in C/SDL **
+ ** Copyright (c) 09/01/2023 Jason Bou-Samra [Karnachan Software]          **
+ **                                                                        **
+ ** This program is free software: you can redistribute it and/or modify   **
+ ** it under the terms of the GNU General Public License as published by   **
+ ** the Free Software Foundation, either version 3 of the License, or      **
+ ** (at your option) any later version.                                    **
+ **                                                                        **
+ ** This program is distributed in the hope that it will be useful,        **
+ ** but WITHOUT ANY WARRANTY; without even the implied warranty of         **
+ ** MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the          **
+ ** GNU General Public License for more details.                           **
+ **                                                                        **
+ ** You should have received a copy of the GNU General Public License      **
+ ** along with this program.  If not, see <https://www.gnu.org/licenses/>. **
+ ****************************************************************************/
 
 #include <stdio.h>
 #include <SDL2/SDL.h>
