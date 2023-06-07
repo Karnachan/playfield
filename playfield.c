@@ -8,7 +8,6 @@
  **              playfield example in C/SDL            **
  ** CHANGES    : see changes.txt                       **
  ********************************************************/
-/* to compile: cc name.c -lSDL2 -lm */
 
 #include <stdio.h>
 #include <SDL2/SDL.h>
@@ -117,5 +116,5 @@ for (int j=0; j<20; j++) // #FF00FF00 recreate pattern
 }
 
 /* author*/
-char author[] = { "amiga 1000 playfield example" };
-const char* text = "by commodore amiga inc.";
+char author[] = { "original 68000 assembly code by commodore amiga inc." };
+const char* text = "amiga 1000 playfield example";
